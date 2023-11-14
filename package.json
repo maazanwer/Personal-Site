@@ -1,10 +1,10 @@
 {
-  "homepage":"http://maazanwer.github.io/Personal-Site",  
-
+  "homepage": "http://maazanwer.github.io/Personal-Site",
   "name": "personal-profile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+  
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
@@ -20,12 +20,11 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -48,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.0.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
