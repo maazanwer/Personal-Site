@@ -1,0 +1,148 @@
+#root {
+  background-color: #cbf1f5;
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+}
+
+/* Ok so i have a Global StyleSheet, and have tried to seperate the styling for different
+components as much as possible to make it more organized. I have provided comments 
+when the respective component styling starts. */
+
+
+/* Navbar */
+
+.navigation {
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+
+
+/* Upperpart Stylesheet */
+
+.main {
+ 
+  background: linear-gradient(
+    to bottom,
+    #ffd700,
+    #ff5733,
+    rgb(0, 174, 255)
+  ); /* Three colors representing late afternoon to dusk */
+}
+
+
+.custom-container {
+  display: inline-block;
+  max-width: 100%;
+}
+.img-cloud1 > img {
+  width: 150px;
+  height: 45px;
+  position: relative;
+  left: 16%;
+  top: 50%;
+}
+.img-cloud2 > img {
+  width: 150px;
+  height: 45px;
+  position: relative;
+  bottom: 50%;
+  right: 11%;
+}
+
+.centering {
+  display: flex;
+  justify-content: center;
+}
+.centering p,
+.centering img {
+  margin: 5px;
+  z-index: 1;
+}
+
+
+/* Mountain CSS */
+
+.img-mountain {
+  max-height: 400px;
+}
+
+
+
+/* Middle-part Stylesheet */
+
+.middle-part {
+  margin-top: 75px;
+}
+#skillCard {
+  margin-top: 10px;
+}
+
+.mid-profile {
+  max-width: 300px;
+  max-height: 300px;
+}
+#pun {
+  color: rgb(196, 195, 195);
+}
+
+.sizing {
+  width: 300px;
+}
+.text-align {
+  text-align: center;
+}
+
+#hr {
+  margin-top: 50px;
+  border: none;
+  border-top: 8px dotted rgb(150, 149, 149);
+  width: 70px;
+}
+
+.code-text {
+  width: 90%;
+}
+
+#skill-heading {
+  margin: 4% 0 4% 0;
+}
+
+/* LowerPart (Footer) */
+
+.footer-main {
+  margin-top: 10%;
+  width: 100%;
+  height: 200px;
+  background-color: #0f63b8;
+}
+
+.positioning {
+  position: relative;
+  top: 25%;
+}
+
+.padding {
+  padding: 5%;
+}
+.padding > a {
+  text-decoration: none;
+  color: rgb(207, 199, 199);
+}
+
+/* About-ME(page) stylesheet */
+
+.margin {
+  margin: 0;
+}
+.heading {
+  margin-top: 15px;
+}
+
+.p {
+  margin-top: 15px;
+}
+
+/* CV (page) stylesheet */
+
+#margin {
+  margin: 5% 0 5% 0;
+}
