@@ -1,5 +1,5 @@
 {
-  "homepage": "http://maazanwer.github.io/Personal-Site",
+  
   "name": "personal-profile",
   "version": "0.1.0",
   "private": true,
@@ -47,7 +47,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0",
+   
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
